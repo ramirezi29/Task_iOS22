@@ -11,10 +11,10 @@ import CoreData
 
 class TaskController {
     
-
+    
     // Singleton
     static let shared = TaskController()
-  
+    
     // Source of Verdad
     var tasks: [Task] {
         do {
@@ -45,7 +45,7 @@ class TaskController {
         task.due = due
         task.name = name
         task.notes = notes
-       
+        
         saveToPersistentStorage()
     }
     
@@ -59,7 +59,7 @@ class TaskController {
     func toggleIsCompleteFor(task: Task) {
         task.isComplete = !task.isComplete
         
-       saveToPersistentStorage()
+        saveToPersistentStorage()
     }
     
     // MARK: Persistent and Fetch

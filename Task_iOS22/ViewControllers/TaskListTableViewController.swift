@@ -28,7 +28,7 @@ class TaskListTableViewController: UITableViewController, ButtonTableViewCellDel
         tableView.reloadData()
     }
     
-     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "My Tasks"
     }
     // MARK: - Table view data source

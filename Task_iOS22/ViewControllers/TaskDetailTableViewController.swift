@@ -83,8 +83,6 @@ extension TaskDetailTableViewController {
         dueDateTextField.backgroundColor = UIColor(white: 0, alpha: 0.0)
         dueDatePicker.backgroundColor = UIColor(white: 0, alpha: 0.0)
         noteTextView.backgroundColor = UIColor(white: 0, alpha: 0.0)
-        
-        
     }
 }
 

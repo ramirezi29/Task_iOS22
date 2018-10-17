@@ -16,10 +16,10 @@ extension TaskListTableViewController {
         tableView.backgroundView = imageView
         imageView.contentMode = .scaleAspectFill
         
-//        let blurEffect = UIBlurEffect(style: .light)
-//        let blurView = UIVisualEffectView(effect: blurEffect)
-//        blurView.frame = imageView.bounds
-//        imageView.addSubview(blurView)
-//        imageView.clipsToBounds = true
+        //        let blurEffect = UIBlurEffect(style: .light)
+        //        let blurView = UIVisualEffectView(effect: blurEffect)
+        //        blurView.frame = imageView.bounds
+        //        imageView.addSubview(blurView)
+        //        imageView.clipsToBounds = true
     }
 }
