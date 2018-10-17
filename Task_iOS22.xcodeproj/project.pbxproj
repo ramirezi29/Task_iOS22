@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		4738C56A216E8676001623C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C569216E8676001623C4 /* AppDelegate.swift */; };
-		4738C56C216E8676001623C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C56B216E8676001623C4 /* ViewController.swift */; };
 		4738C56F216E8676001623C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4738C56D216E8676001623C4 /* Main.storyboard */; };
 		4738C571216E8678001623C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4738C570216E8678001623C4 /* Assets.xcassets */; };
 		4738C574216E8678001623C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4738C572216E8678001623C4 /* LaunchScreen.storyboard */; };
+		4738C57D216EAC2D001623C4 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C57C216EAC2D001623C4 /* TaskListTableViewController.swift */; };
+		4738C584216EAE6D001623C4 /* TaskDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C583216EAE6D001623C4 /* TaskDetailTableViewController.swift */; };
+		4738C586216EAEED001623C4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C585216EAEED001623C4 /* CoreDataStack.swift */; };
+		4738C589216EAF5D001623C4 /* Task_iOS22.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4738C587216EAF5D001623C4 /* Task_iOS22.xcdatamodeld */; };
+		4738C58B216EB05E001623C4 /* Task+Convenience.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C58A216EB05E001623C4 /* Task+Convenience.swift..swift */; };
+		4738C58D216EB1C4001623C4 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C58C216EB1C4001623C4 /* TaskController.swift */; };
+		4738C58F216EB75D001623C4 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4738C58E216EB75D001623C4 /* ButtonTableViewCell.swift */; };
+		47A7D51F216FF68300874D31 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7D51E216FF68300874D31 /* DateHelper.swift */; };
+		47B4C55721704B540018A4EA /* TaskList_UI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B4C55621704B540018A4EA /* TaskList_UI_Extension.swift */; };
+		47B4C55921704C290018A4EA /* ListDetail.UI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B4C55821704C290018A4EA /* ListDetail.UI_Extension.swift */; };
+		47B4C55B21704C690018A4EA /* ButtonCell_UI_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B4C55A21704C690018A4EA /* ButtonCell_UI_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4738C566216E8676001623C4 /* Task_iOS22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_iOS22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4738C569216E8676001623C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4738C56B216E8676001623C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4738C56E216E8676001623C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4738C570216E8678001623C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4738C573216E8678001623C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4738C575216E8678001623C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4738C57C216EAC2D001623C4 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
+		4738C583216EAE6D001623C4 /* TaskDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskDetailTableViewController.swift; path = Task_iOS22/ViewControllers/TaskDetailTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		4738C585216EAEED001623C4 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		4738C588216EAF5D001623C4 /* Task_iOS22.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_iOS22.xcdatamodel; sourceTree = "<group>"; };
+		4738C58A216EB05E001623C4 /* Task+Convenience.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Convenience.swift..swift"; sourceTree = "<group>"; };
+		4738C58C216EB1C4001623C4 /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
+		4738C58E216EB75D001623C4 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		47A7D51E216FF68300874D31 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		47B4C55621704B540018A4EA /* TaskList_UI_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList_UI_Extension.swift; sourceTree = "<group>"; };
+		47B4C55821704C290018A4EA /* ListDetail.UI_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetail.UI_Extension.swift; sourceTree = "<group>"; };
+		47B4C55A21704C690018A4EA /* ButtonCell_UI_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell_UI_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,89 @@
 		4738C568216E8676001623C4 /* Task_iOS22 */ = {
 			isa = PBXGroup;
 			children = (
-				4738C569216E8676001623C4 /* AppDelegate.swift */,
-				4738C56B216E8676001623C4 /* ViewController.swift */,
-				4738C56D216E8676001623C4 /* Main.storyboard */,
-				4738C570216E8678001623C4 /* Assets.xcassets */,
-				4738C572216E8678001623C4 /* LaunchScreen.storyboard */,
-				4738C575216E8678001623C4 /* Info.plist */,
+				47A7D520216FF69100874D31 /* Extensions */,
+				4738C57E216EAC37001623C4 /* UI_Extensions */,
+				4738C581216EAC64001623C4 /* StoryBoards */,
+				4738C590216EBF24001623C4 /* ModelController */,
+				4738C580216EAC50001623C4 /* Model */,
+				4738C57F216EAC3E001623C4 /* View */,
+				4738C57B216EAC05001623C4 /* ViewControllers */,
+				4738C582216EAC7A001623C4 /* Resources */,
 			);
 			path = Task_iOS22;
+			sourceTree = "<group>";
+		};
+		4738C57B216EAC05001623C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4738C583216EAE6D001623C4 /* TaskDetailTableViewController.swift */,
+				4738C57C216EAC2D001623C4 /* TaskListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4738C57E216EAC37001623C4 /* UI_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47B4C55A21704C690018A4EA /* ButtonCell_UI_Extension.swift */,
+				47B4C55621704B540018A4EA /* TaskList_UI_Extension.swift */,
+				47B4C55821704C290018A4EA /* ListDetail.UI_Extension.swift */,
+			);
+			path = UI_Extensions;
+			sourceTree = "<group>";
+		};
+		4738C57F216EAC3E001623C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4738C58E216EB75D001623C4 /* ButtonTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4738C580216EAC50001623C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4738C587216EAF5D001623C4 /* Task_iOS22.xcdatamodeld */,
+				4738C585216EAEED001623C4 /* CoreDataStack.swift */,
+				4738C58A216EB05E001623C4 /* Task+Convenience.swift..swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4738C581216EAC64001623C4 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4738C56D216E8676001623C4 /* Main.storyboard */,
+				4738C572216E8678001623C4 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		4738C582216EAC7A001623C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4738C569216E8676001623C4 /* AppDelegate.swift */,
+				4738C570216E8678001623C4 /* Assets.xcassets */,
+				4738C575216E8678001623C4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4738C590216EBF24001623C4 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				4738C58C216EB1C4001623C4 /* TaskController.swift */,
+			);
+			name = ModelController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		47A7D520216FF69100874D31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47A7D51E216FF68300874D31 /* DateHelper.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +230,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4738C56C216E8676001623C4 /* ViewController.swift in Sources */,
+				4738C58D216EB1C4001623C4 /* TaskController.swift in Sources */,
+				4738C589216EAF5D001623C4 /* Task_iOS22.xcdatamodeld in Sources */,
+				4738C57D216EAC2D001623C4 /* TaskListTableViewController.swift in Sources */,
+				4738C58F216EB75D001623C4 /* ButtonTableViewCell.swift in Sources */,
 				4738C56A216E8676001623C4 /* AppDelegate.swift in Sources */,
+				4738C584216EAE6D001623C4 /* TaskDetailTableViewController.swift in Sources */,
+				47B4C55721704B540018A4EA /* TaskList_UI_Extension.swift in Sources */,
+				47A7D51F216FF68300874D31 /* DateHelper.swift in Sources */,
+				4738C58B216EB05E001623C4 /* Task+Convenience.swift..swift in Sources */,
+				47B4C55B21704C690018A4EA /* ButtonCell_UI_Extension.swift in Sources */,
+				47B4C55921704C290018A4EA /* ListDetail.UI_Extension.swift in Sources */,
+				4738C586216EAEED001623C4 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = Task_iOS22/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Task_iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = Task_iOS22/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Task_iOS22/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +441,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4738C587216EAF5D001623C4 /* Task_iOS22.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4738C588216EAF5D001623C4 /* Task_iOS22.xcdatamodel */,
+			);
+			currentVersion = 4738C588216EAF5D001623C4 /* Task_iOS22.xcdatamodel */;
+			path = Task_iOS22.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4738C55E216E8676001623C4 /* Project object */;
 }
